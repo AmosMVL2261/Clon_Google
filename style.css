@@ -1,0 +1,150 @@
+/*Para hacer espacio a los elementos*/
+body {
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    margin: 0px 0px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+header{
+    margin: 10px 10px 0px 0px;
+}
+
+/* Quitamos las decoraciones */
+ul {
+    list-style-type: none;
+}
+
+/* Para que las listas del header esten en el mismo row*/
+header li, footer li {
+    display: inline;
+    margin-right: 15px;
+}
+
+/* Para que este alineado correctamente con la listas del footer */
+footer p {
+    margin-left: 40px;
+}
+
+/* Alineamos los elementos del footer para que queden centrados verticalmente */
+.country, .products {
+    display: flex;
+    align-items: center;
+}
+
+/* Altura de las filas del footer */
+footer section {
+    height: 40px;
+    background-color: rgba(242,242,242,255);
+}
+
+/* Espacio entre los li del footer */
+footer li {
+    margin-right: 30px;
+}
+
+/* Para que esten en la misma fila */
+ul {
+    display: inline;
+}
+
+/* Para que no cresca verticalmente */
+header ul, footer p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Aparencia de los botones */
+.btn-search {
+    text-align: center;
+    height: 35px;
+    width: 165px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-search:hover {
+    border: 1px solid #858594;
+}
+
+input:hover {
+    border: 1px solid #858594;
+}
+
+/* Acomodamiento de los botones */
+.search_buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 350px;
+}
+
+img {
+    max-width: 50%;
+}
+
+/* Acomodamos el logo, la busqueda y los botones */
+.centro {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Barra de busqueda */
+input {
+    border: 1px solid #d0d3d8;
+    border-radius: 15px;
+    height: 35px;
+}
+
+/* Acomodamos el header */
+header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+/* Separamos las listas del footer*/
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Para la imagen de puntitos */
+#more_options {
+    margin-right: 20px;
+}
+
+/* Para la apariencia del boton de acceder */
+header button {
+    background-color: rgba(26,115,232,255);
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    height: 2.70em;
+    width: 7.75em;
+}
+
+/* Apariencia de los links que hay en el footer */
+a:link {color:#858594}    
+a:visited{color:#858594}
+a{text-decoration: none;}
+a:hover{text-decoration:underline;}
+
+header a:link {color:rgb(19, 18, 18)}    
+header a:visited{color:rgb(19, 18, 18)}
+
+section.country p{
+    color: #858594;
+}
+
+.country {
+    border-bottom: 1px solid #d0d3d8;
+}
